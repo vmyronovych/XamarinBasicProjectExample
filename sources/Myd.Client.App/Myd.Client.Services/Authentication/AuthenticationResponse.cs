@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Myd.Client.App.Services.Authentication
+namespace Myd.Client.Services.Authentication
 {
     public class AuthenticationResponse
     {

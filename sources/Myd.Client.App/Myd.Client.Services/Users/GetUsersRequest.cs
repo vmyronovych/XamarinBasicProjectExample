@@ -1,4 +1,4 @@
-namespace Myd.Client.App.Services.Users
+namespace Myd.Client.Services.Users
 {
     public class GetUsersRequest
     {

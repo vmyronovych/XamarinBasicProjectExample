@@ -1,6 +1,6 @@
 ﻿using System;
-using Myd.Client.App.Services.Authentication;
-using Myd.Client.App.Services.Users;
+using Myd.Client.Services.Authentication;
+using Myd.Client.Services.Users;
 using Xamarin.Forms;
 
 namespace Myd.Client.App.Pages.Login
@@ -20,8 +20,8 @@ namespace Myd.Client.App.Pages.Login
 
             Model = new LoginModel
             {
-                Password = "sdfsdf!",
-                Login = "sdfsdf"
+                Password = "asfasfa!",
+                Login = "asfa.com"
             };
 
             BindingContext = Model;

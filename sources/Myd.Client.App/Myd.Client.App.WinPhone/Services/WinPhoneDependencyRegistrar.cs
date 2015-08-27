@@ -1,8 +1,8 @@
 ﻿using Autofac;
-using Myd.Client.App.Services;
-using Myd.Client.App.Services.Configuration;
 using Myd.Client.App.WinPhone.Services;
 using Myd.Client.App.WinPhone.Services.Configuration;
+using Myd.Client.Services.Configuration;
+using Myd.Client.Services.Infrastructure;
 using Xamarin.Forms;
 
 [assembly: Dependency(typeof(AppDependencyRegistrar))]

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Myd.Client.App.Services.Users
+namespace Myd.Client.Services.Users
 {
     public interface IUsersService
     {

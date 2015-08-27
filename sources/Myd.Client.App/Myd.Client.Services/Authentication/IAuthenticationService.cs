@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Myd.Client.App.Services.Authentication
+namespace Myd.Client.Services.Authentication
 {
     public interface IAuthenticationService
     {

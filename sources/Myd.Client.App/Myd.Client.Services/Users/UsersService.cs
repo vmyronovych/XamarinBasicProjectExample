@@ -4,11 +4,11 @@ using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using Myd.Client.App.Services.Authentication;
+using Myd.Client.Services.Authentication;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Myd.Client.App.Services.Users
+namespace Myd.Client.Services.Users
 {
     public class UsersService : IUsersService
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Myd.Client.App.Services.Authentication
+namespace Myd.Client.Services.Authentication
 {
     public class TokenInfo
     {

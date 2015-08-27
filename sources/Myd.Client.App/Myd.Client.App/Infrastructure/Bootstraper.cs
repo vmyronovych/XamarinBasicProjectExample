@@ -1,5 +1,5 @@
 using Autofac;
-using Myd.Client.App.Services;
+using Myd.Client.Services.Infrastructure;
 using Xamarin.Forms;
 
 namespace Myd.Client.App.Infrastructure

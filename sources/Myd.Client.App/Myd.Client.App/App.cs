@@ -1,7 +1,6 @@
 ﻿using Autofac;
 using Myd.Client.App.Infrastructure;
 using Myd.Client.App.Pages.Login;
-using Myd.Client.App.Services;
 using Xamarin.Forms;
 
 namespace Myd.Client.App

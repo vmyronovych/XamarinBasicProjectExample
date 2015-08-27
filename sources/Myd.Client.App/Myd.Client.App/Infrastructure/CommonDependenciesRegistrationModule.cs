@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using Myd.Client.App.Pages.Login;
-using Myd.Client.App.Services.Authentication;
-using Myd.Client.App.Services.Users;
+using Myd.Client.Services.Authentication;
+using Myd.Client.Services.Users;
 
 namespace Myd.Client.App.Infrastructure
 {

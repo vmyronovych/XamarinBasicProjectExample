@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Myd.Client.App.Services.Configuration;
+using Myd.Client.Services.Configuration;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Myd.Client.App.Services.Authentication
+namespace Myd.Client.Services.Authentication
 {
     public class AuthenticationService : IAuthenticationService
     {

@@ -1,4 +1,4 @@
-﻿using Myd.Client.App.Services.Configuration;
+﻿using Myd.Client.Services.Configuration;
 
 namespace Myd.Client.App.WinPhone.Services.Configuration
 {   
@@ -9,11 +9,11 @@ namespace Myd.Client.App.WinPhone.Services.Configuration
             switch (key)
             {
                 case "WebApiUrl":
-                    return "agdsgd";
+                    return "agasg";
                 case "ClientId":
-                    return "asafasff";
+                    return "sagasg";
                 case "ClientSecret":
-                    return "asfasfaf";
+                    return "asgasggasgas";
                 default:
                     return null;
             }
