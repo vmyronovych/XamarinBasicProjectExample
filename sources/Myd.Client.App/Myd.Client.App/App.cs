@@ -1,21 +1,20 @@
 ﻿using Autofac;
+using Myd.Client.App.Infrastructure;
 using Myd.Client.App.Pages.Login;
+using Myd.Client.App.Services;
 using Xamarin.Forms;
 
 namespace Myd.Client.App
 {
     public class App : Application
     {
-        public static IContainer DiContainer { get; private set; }
-    
         public App()
         {
-            InitDiContainer();
-
+            var container = Bootstraper.Bootstrap();
             // The root page of your application
-            MainPage = DiContainer.Resolve<LoginPage>();
+            MainPage = container.Resolve<LoginPage>();
         }
-        
+
         protected override void OnStart()
         {
             // Handle when your app starts
@@ -29,13 +28,6 @@ namespace Myd.Client.App
         protected override void OnResume()
         {
             // Handle when your app resumes
-        }
-
-        private static void InitDiContainer()
-        {
-            var builder = new ContainerBuilder();
-            builder.RegisterModule<AppModule>();
-            DiContainer = builder.Build();
         }
     }
 }

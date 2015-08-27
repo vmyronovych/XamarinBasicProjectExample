@@ -36,12 +36,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="AppModule.cs" />
+    <Compile Include="Infrastructure\Bootstraper.cs" />
+    <Compile Include="Infrastructure\CommonDependenciesRegistrationModule.cs" />
     <Compile Include="Services\Authentication\AuthenticationResponse.cs" />
     <Compile Include="Services\Authentication\AuthenticationResponseRequest.cs" />
     <Compile Include="Services\Authentication\AuthenticationService.cs" />
     <Compile Include="Services\Authentication\IAuthenticationService.cs" />
     <Compile Include="Services\Authentication\TokenInfo.cs" />
+    <Compile Include="Services\Configuration\IConfigurationService.cs" />
+    <Compile Include="Services\IDependencyRegistrar.cs" />
     <Compile Include="Services\Users\GetUsersRequest.cs" />
     <Compile Include="Services\Users\IUsersService.cs" />
     <Compile Include="Pages\Login\LoginModel.cs" />

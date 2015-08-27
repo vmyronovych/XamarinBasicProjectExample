@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Autofac;
+﻿using Autofac;
 using Myd.Client.App.Pages.Login;
 using Myd.Client.App.Services.Authentication;
 using Myd.Client.App.Services.Users;
 
-namespace Myd.Client.App
+namespace Myd.Client.App.Infrastructure
 {
-    class AppModule : Module
+    class CommonDependenciesRegistrationModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {

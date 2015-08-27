@@ -18,7 +18,11 @@ namespace Myd.Client.App.Pages.Login
 
             InitializeComponent();
 
-            Model = new LoginModel();
+            Model = new LoginModel
+            {
+                Password = "sdfsdf!",
+                Login = "sdfsdf"
+            };
 
             BindingContext = Model;
         }
